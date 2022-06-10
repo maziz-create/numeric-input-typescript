@@ -1,6 +1,6 @@
 # Getting Started
 
-Then, install `tsc` and `typescript`
+First, install `tsc` and `typescript`
 
 ```
 npm install tsc typescript

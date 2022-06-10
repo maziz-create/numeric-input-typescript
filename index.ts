@@ -34,8 +34,10 @@ const wrapperCalcInputDiv = new HtmlDivElement("wrapperCalcInputDiv");
 function validationActions(isValid: boolean, text: string) {
   if (isValid) {
     const result = process(text);
-    resultSpan.element.textContent = result.toFixed(2);
-    valueSpan.element.textContent = result.toFixed(2);
+    if (result) {
+      resultSpan.element.textContent = result.toFixed(2);
+      valueSpan.element.textContent = result.toFixed(2);
+    }
     numericInput.isValid = true;
     validSpan.element.textContent = "true";
     wrapperCalcInputDiv.element.className = "";

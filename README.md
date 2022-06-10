@@ -3,7 +3,7 @@ First, install dependencies
 ```
 npm install
 ```
-Then, migrate typescript file to javascript file.
+Then, migrate typescript file to javascript file for creating index.js
 ```
 npm run migrate
 ```

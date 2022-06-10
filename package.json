@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "migrate": "tsc index.ts",
     "start": "open index.html"
   },
   "author": "Mehmet Aziz Algüllü",

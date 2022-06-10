@@ -1,17 +1,19 @@
 # Getting Started
-First, install dependencies
+
+Then, install `tsc` and `typescript`
+
 ```
-npm install
+npm install tsc typescript
 ```
-Then, install `tsc` to global
-```
-npm install -g tsc
-```
+
 Then, migrate typescript file to javascript file for creating index.js
+
 ```
-npm run migrate
+tsc index.ts
 ```
+
 Then, start the project
+
 ```
 npm start
 ```

@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  padding: 35px;
+  border: 1px solid gray;
+}
+
+#wrapperCalcInputDiv {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  padding-left: 3px;
+}
+
+#numericInput {
+  border: none;
+  height: 100%;
+  background: transparent;
+}
+
+#numericInput:focus-visible {
+  outline: none;
+}
+
+#resultSpan {
+  width: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(209, 209, 209);
+  height: 100%;
+}
+
+.border-invalid-focused {
+  border: 2px solid red;
+}
+
+.border-invalid-non-focused {
+  border: 2px solid rgb(238, 146, 225);
+}
+
+.border-valid-focused {
+  border: 2px solid blue;
+}
+
+.border-valid-non-focused {
+  border: 2px solid gray;
+}

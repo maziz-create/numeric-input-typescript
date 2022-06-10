@@ -1,0 +1,16 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "migrate": "tsc index.ts",
+    "start": "open index.html"
+  },
+  "author": "Mehmet Aziz Algüllü",
+  "license": "ISC",
+  "dependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^4.7.3"
+  }
+}
